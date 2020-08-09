@@ -65,7 +65,12 @@ CREATE TABLE `airport` (
 
 LOCK TABLES `airport` WRITE;
 /*!40000 ALTER TABLE `airport` DISABLE KEYS */;
-INSERT INTO `airport` VALUES ('DAL','Dallas Love Field','Dallas','Texas','USA'),('DFW','Dallas Fort Worth Airport','Dallas','Texas','USA'),('LAX','Los Angeles International Airport','Los Angeles','California','USA'),('SEA','Seattle-Tacoma International Airport','Seattle','Washington','USA'),('SFO','San Francisco International','San Fransciso','California','USA');
+INSERT INTO `airport` VALUES 
+('NSA', 'Netaji Subhash Chandra Bose International Airport', 'Kolkata', 'West Bengol', 'India'),
+('BEA', 'Behala Airport', 'Kolkata', 'West Bengol', 'India'),
+('CAA', 'Calcutta Airport', 'Kolkata', 'West Bengol', 'India'),
+('AIL', 'Air India Limited', 'Kolkata', 'West Bengol', 'India'),
+('DHD', 'Digha Helipad', 'Digha', 'West Bengol', 'India');
 /*!40000 ALTER TABLE `airport` ENABLE KEYS */;
 UNLOCK TABLES;
 
